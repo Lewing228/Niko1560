@@ -15,10 +15,6 @@ function App() {
             });
     }, []);
 
-    if (!user) {
-        return <div>Loading...</div>;
-    }
-
     return (
         <div className="App">
             <h1>Welcome, {user.username}!</h1>
